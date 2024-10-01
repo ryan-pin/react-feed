@@ -6,7 +6,7 @@ export function Header(){
     return (
         <header className={style.header}>
             <img src={valLogo} alt="Valorant Logo" />
-            <strong>PageName</strong>
+            <strong>DevNet</strong>
         </header>
 
     )

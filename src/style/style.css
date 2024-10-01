@@ -10,6 +10,14 @@
     --gray7: #121214;
 
     --purple: #8143d9;
+    --purple2: #ad73ff;
+    --red: #eb3528;
+
+}
+
+:focus{
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--purple2);
 }
 
 /* reset css*/
