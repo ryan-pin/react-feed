@@ -12,7 +12,7 @@ export function Sidebar() {
                 <Avatar src="https://i.ytimg.com/vi/Hfv995ts_gg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDLOZ5Vpf7TjCLHlk1Xw34eQC6b2Q"/>
                 
                 <strong>Mefius</strong>
-                <span>Flutter dev</span>
+                <span>Web Dev</span>
             </div>
 
             <footer>
