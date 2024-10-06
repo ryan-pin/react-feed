@@ -7,18 +7,18 @@ import styles from "./style/App.module.css";
 import "./style/style.css";
 
 const posts = [
-   {
+  {
     id:1,
     author: {
-      avatarUrl: "https://i.ytimg.com/vi/Hfv995ts_gg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDLOZ5Vpf7TjCLHlk1Xw34eQC6b2Q",
-      name: "Mefius",
-      role: "Mobile Dev"
+      avatarUrl: "https://i.pinimg.com/originals/81/c9/31/81c9314e97404de54b7e500716750873.jpg",
+      name: "Ryan",
+      role: "Web Dev"
     },
     content: [
-      { type: 'paragraph', content: 'Cada linha de código que escrevo é uma nova oportunidade de aprender e evoluir. Programação não é apenas resolver problemas, é transformar ideias em soluções práticas e criativas. 🚀💻'},
-      { type: 'link', content: '#DevLife #Inovação #TechMindset'}
+      { type: 'paragraph', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tortor ipsum, porttitor at dapibus sit amet, tempor nec erat. Praesent vitae felis sed nibh tristique dictum. Vestibulum consectetur commodo lacus in venenatis. Fusce id dui in nibh cursus iaculis. Curabitur gravida accumsan ante eu malesuada. Integer consequat lacus quis orci viverra tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur commodo mi eget dolor varius, a vehicula odio lacinia. Sed at vehicula elit.'},
+      { type: 'link', content: '#react'}
     ],
-    publishedAt: new Date('2024-10-03 20:24:10'),
+    publishedAt: new Date('2024-10-03 17:30:10'),
   },
   {
     id:2,
@@ -35,18 +35,18 @@ const posts = [
     ],
     publishedAt: new Date('2024-10-02 21:25:10'),
   },
-  {
+   {
     id:3,
     author: {
-      avatarUrl: "https://i.pinimg.com/originals/81/c9/31/81c9314e97404de54b7e500716750873.jpg",
-      name: "Ryan",
-      role: "Web Dev"
+      avatarUrl: "https://i.ytimg.com/vi/Hfv995ts_gg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDLOZ5Vpf7TjCLHlk1Xw34eQC6b2Q",
+      name: "Mefius",
+      role: "Mobile Dev"
     },
     content: [
-      { type: 'paragraph', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tortor ipsum, porttitor at dapibus sit amet, tempor nec erat. Praesent vitae felis sed nibh tristique dictum. Vestibulum consectetur commodo lacus in venenatis. Fusce id dui in nibh cursus iaculis. Curabitur gravida accumsan ante eu malesuada. Integer consequat lacus quis orci viverra tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur commodo mi eget dolor varius, a vehicula odio lacinia. Sed at vehicula elit.'},
-      { type: 'link', content: '#react'}
+      { type: 'paragraph', content: 'Cada linha de código que escrevo é uma nova oportunidade de aprender e evoluir. Programação não é apenas resolver problemas, é transformar ideias em soluções práticas e criativas. 🚀💻'},
+      { type: 'link', content: '#DevLife #Inovação #TechMindset'}
     ],
-    publishedAt: new Date('2024-10-01 17:30:10'),
+    publishedAt: new Date('2024-10-01 20:24:10'),
   },
 
 ]
