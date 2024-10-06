@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { ThumbsUp, Trash } from "phosphor-react";
 import styles from "../style/Comment.module.css";
 import { Avatar } from "./Avatar.jsx"
 
-export function Comment() {
+export function Comment({content}) {
   return (
     <div className={styles.comment}>
       <Avatar  hasBorder={false} src="https://i.ytimg.com/vi/XI-1kGX4ung/maxresdefault.jpg"/>
@@ -18,7 +19,7 @@ export function Comment() {
                     <Trash size={24}/>
                 </button>
             </header>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus fringilla odio, eget volutpat velit gravida quis. Aenean sed porta nibh.😎</p>
+            <p>{content}</p>
         </div>
         <footer>
             <button>
