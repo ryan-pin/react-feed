@@ -1,0 +1,38 @@
+/* variaveis */
+:root{
+    --white: #fff;
+    --gray1: #e1e1e6;
+    --gray2: #c4c4cc;
+    --gray3: #8d8d99;
+    --gray4: #323238;
+    --gray5: #29292e;
+    --gray6: #202024;
+    --gray7: #121214;
+
+    --purple: #8143d9;
+    --purple2: #ad73ff;
+    --red: #eb3528;
+
+}
+
+:focus{
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--purple2);
+}
+
+/* reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gray7);
+    color: var(--gray2);
+    -webkit-font-smoothing:antialiased;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+
+}
